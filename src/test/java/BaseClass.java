@@ -8,6 +8,7 @@ import org.testng.annotations.BeforeClass;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Properties;
@@ -55,9 +56,9 @@ public class BaseClass {
         response.then().assertThat().time(lessThan(200L), TimeUnit.MILLISECONDS );
     }
 
-    protected void iteratePetsAndPrintSpecificCategory(Response response, String category, Status status) throws Exception {
+    protected void iteratePetsAndPrintSpecificCategory(Response response, String category) throws Exception {
         List<Pet> petList = response.body().jsonPath().getList("", Pet.class);
-        log.info("No. of Pets in "+status.toString() +" List : " + petList.size());
+        log.info("No. of Pets in the List : " + petList.size());
         ResponseBody body = response.getBody();
 
         if ((body.asString()).contains(category)) {
@@ -79,9 +80,32 @@ public class BaseClass {
             }
         }
         else{
-            log.warn(category+ " are not Present in the " +status+" List");
+            log.warn(category+ " are not Present in the List");
         //    Assert.assertTrue((body.asString()).contains(category),category+ " are not Present in the " +status+" List");
         }
+    }
+
+    protected List<Pet> GetPetsOfSpecificCategory(Response response, String category, Status status) throws Exception {
+        List<Pet> petList = response.body().jsonPath().getList("", Pet.class);
+        ResponseBody body = response.getBody();
+        List<Pet> ListOfpetincategory =new ArrayList();
+        if ((body.asString()).contains(category)) {
+            for (Pet pet : petList) {
+                try {
+                    if (pet.getCategory().getName().equalsIgnoreCase(category)) {
+                       ListOfpetincategory.add(pet);
+                    }
+                }catch (NullPointerException e) {
+                    log.error("Caught Null pointer Exception as name is null for referred category");
+
+                }
+            }
+        }
+        else{
+            log.warn(category+ " are not Present in the " +status+" List");
+            //    Assert.assertTrue((body.asString()).contains(category),category+ " are not Present in the " +status+" List");
+        }
+        return ListOfpetincategory;
     }
     private Properties getProps() throws IOException {
         Properties properties = new Properties();

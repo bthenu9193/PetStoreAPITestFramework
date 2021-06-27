@@ -48,21 +48,34 @@ public class GetPetStatus extends BaseClass {
 
     @Test(priority = 2,dependsOnMethods = {"findStatus"})
     public void validateStatusCode(){
-        log.info("Validate the Response code");
+        log.info("Validating the Response code...");
         validateResponseCode(this.response);
     }
 
     @Test(priority = 2,dependsOnMethods = {"findStatus"})
     public void validateTimeTaken() {
-        log.info("Validate that time taken to findByStatus request should less than 200ms");
+        log.info("Validating that time taken to findByStatus request should less than 200ms...");
         validateResponseTime(this.response);
     }
 
     @Test(priority = 2,dependsOnMethods = {"findStatus"})
     public void iterateAndPrintCategoryDetails() throws Exception {
-        log.info("Find and Iterate through "+category+" Category");
-      iteratePetsAndPrintSpecificCategory(this.response,category,status);
+        log.info("Find and Iterate through "+category+" Category in "+status+" status...");
+      iteratePetsAndPrintSpecificCategory(this.response,category);
+    }
+
+    @Test(priority = 3,dependsOnMethods = {"iterateAndPrintCategoryDetails"})
+    public void iterateAndPrintCategoryDetailsForAllStatus() throws Exception {
+        log.info("Find and Iterate through "+category+" Category for All Status");
+        this.response=pet.findByAllStatus();
+        //As per SwaggerUI multiple values are allowed but as per my observation API takes first parameter status and list those alone.
+        validateResponseCode(this.response);
+        if(!(response.body().toString().contains("pending")||response.body().toString().contains("sold")))
+            log.error("API is not taking subsequent query params,only first status is considered");
+        iteratePetsAndPrintSpecificCategory(this.response,category);
 
     }
+
+
 
 }

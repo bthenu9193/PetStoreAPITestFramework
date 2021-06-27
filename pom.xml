@@ -27,7 +27,7 @@
                     <useSystemClassLoader>false</useSystemClassLoader>
                     <suiteXmlFiles>
                         <!-- pass testng.xml files as argument from command line -->
-                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                        <suiteXmlFile>testngSuite.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
                 <dependencies>
