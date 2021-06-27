@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PetStoreTestSuite" parallel="none" preserve-order="true" thread-count="2">
+    <test name="GetPetStatus" preserve-order="true">
+        <classes>
+            <class name="GetPetStatus" />
+        </classes>
+    </test>
+    <test name="AddPetAndFindStatus" preserve-order="true">
+         <classes>
+             <class name="AddPetAndFindStatus" />
+         </classes>
+     </test>
+ </suite>

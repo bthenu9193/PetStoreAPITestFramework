@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [PetStoreTestSuite]">
+  <test thread-count="2" name="GetPetStatus(failed)">
+    <classes>
+      <class name="GetPetStatus">
+        <methods>
+          <include name="initializeVal"/>
+          <include name="findStatus"/>
+          <include name="validateTimeTaken"/>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- GetPetStatus -->
+    </classes>
+  </test> <!-- GetPetStatus(failed) -->
+</suite> <!-- Failed suite [PetStoreTestSuite] -->
