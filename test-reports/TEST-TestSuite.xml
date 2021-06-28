@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="36.721" tests="12" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/thenmozhibanan/.m2/repository/org/apache/maven/surefire/surefire-booter/3.0.0-M5/surefire-booter-3.0.0-M5.jar:/Users/thenmozhibanan/.m2/repository/org/apache/maven/surefire/surefire-api/3.0.0-M5/surefire-api-3.0.0-M5.jar:/Users/thenmozhibanan/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.0.0-M5/surefire-logger-api-3.0.0-M5.jar:/Users/thenmozhibanan/.m2/repository/org/apache/maven/surefire/surefire-shared-utils/3.0.0-M4/surefire-shared-utils-3.0.0-M4.jar:/Users/thenmozhibanan/.m2/repository/org/apache/maven/surefire/surefire-extensions-spi/3.0.0-M5/surefire-extensions-spi-3.0.0-M5.jar:/Users/thenmozhibanan/Documents/PetStoreAPITestFramework/target/test-classes:/Users/thenmozhibanan/Documents/PetStoreAPITestFramework/target/classes:/Users/thenmozhibanan/.m2/repository/org/testng/testng/7.0.0-beta1/testng-7.0.0-beta1.jar:/Users/thenmozhibanan/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/thenmozhibanan/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.9/jackson-annotations-2.9.9.jar:/Users/thenmozhibanan/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.9/jackson-databind-2.9.9.jar:/Users/thenmozhibanan/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.9/jackson-core-2.9.9.jar:/Users/thenmozhibanan/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.9.9/jackson-datatype-joda-2.9.9.jar:/Users/thenmozhibanan/.m2/repository/joda-time/joda-time/2.7/joda-time-2.7.jar:/Users/thenmozhibanan/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/thenmozhibanan/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/thenmozhibanan/.m2/repository/io/rest-assured/rest-assured/4.3.3/rest-assured-4.3.3.jar:/Users/thenmozhibanan/.m2/repository/org/codehaus/groovy/groovy/3.0.7/groovy-3.0.7.jar:/Users/thenmozhibanan/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.7/groovy-xml-3.0.7.jar:/Users/thenmozhibanan/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/thenmozhibanan/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/thenmozhibanan/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/thenmozhibanan/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/thenmozhibanan/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/thenmozhibanan/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/thenmozhibanan/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/thenmozhibanan/.m2/repository/io/rest-assured/json-path/4.3.3/json-path-4.3.3.jar:/Users/thenmozhibanan/.m2/repository/org/codehaus/groovy/groovy-json/3.0.7/groovy-json-3.0.7.jar:/Users/thenmozhibanan/.m2/repository/io/rest-assured/rest-assured-common/4.3.3/rest-assured-common-4.3.3.jar:/Users/thenmozhibanan/.m2/repository/io/rest-assured/xml-path/4.3.3/xml-path-4.3.3.jar:/Users/thenmozhibanan/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/thenmozhibanan/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/thenmozhibanan/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/thenmozhibanan/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/thenmozhibanan/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/thenmozhibanan/.m2/repository/org/apache/maven/surefire/surefire-testng/3.0.0-M5/surefire-testng-3.0.0-M5.jar:/Users/thenmozhibanan/.m2/repository/org/apache/maven/surefire/common-java5/3.0.0-M5/common-java5-3.0.0-M5.jar:/Users/thenmozhibanan/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/3.0.0-M5/surefire-testng-utils-3.0.0-M5.jar:/Users/thenmozhibanan/.m2/repository/org/apache/maven/surefire/surefire-grouper/3.0.0-M5/surefire-grouper-3.0.0-M5.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/15.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /Users/thenmozhibanan/Documents/PetStoreAPITestFramework/target/surefire 2021-06-28T17-46-37_650-jvmRun1 surefire9458713007310629708tmp surefire_0326301025344310945tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/thenmozhibanan/Documents/PetStoreAPITestFramework/target/test-classes:/Users/thenmozhibanan/Documents/PetStoreAPITestFramework/target/classes:/Users/thenmozhibanan/.m2/repository/org/testng/testng/7.0.0-beta1/testng-7.0.0-beta1.jar:/Users/thenmozhibanan/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/thenmozhibanan/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.9/jackson-annotations-2.9.9.jar:/Users/thenmozhibanan/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.9/jackson-databind-2.9.9.jar:/Users/thenmozhibanan/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.9/jackson-core-2.9.9.jar:/Users/thenmozhibanan/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.9.9/jackson-datatype-joda-2.9.9.jar:/Users/thenmozhibanan/.m2/repository/joda-time/joda-time/2.7/joda-time-2.7.jar:/Users/thenmozhibanan/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/thenmozhibanan/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/thenmozhibanan/.m2/repository/io/rest-assured/rest-assured/4.3.3/rest-assured-4.3.3.jar:/Users/thenmozhibanan/.m2/repository/org/codehaus/groovy/groovy/3.0.7/groovy-3.0.7.jar:/Users/thenmozhibanan/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.7/groovy-xml-3.0.7.jar:/Users/thenmozhibanan/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/thenmozhibanan/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/thenmozhibanan/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/thenmozhibanan/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/thenmozhibanan/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/thenmozhibanan/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/thenmozhibanan/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/thenmozhibanan/.m2/repository/io/rest-assured/json-path/4.3.3/json-path-4.3.3.jar:/Users/thenmozhibanan/.m2/repository/org/codehaus/groovy/groovy-json/3.0.7/groovy-json-3.0.7.jar:/Users/thenmozhibanan/.m2/repository/io/rest-assured/rest-assured-common/4.3.3/rest-assured-common-4.3.3.jar:/Users/thenmozhibanan/.m2/repository/io/rest-assured/xml-path/4.3.3/xml-path-4.3.3.jar:/Users/thenmozhibanan/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/thenmozhibanan/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/thenmozhibanan/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/thenmozhibanan/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/thenmozhibanan/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/thenmozhibanan"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/15.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/thenmozhibanan/Documents/PetStoreAPITestFramework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15.0.2+7"/>
+    <property name="user.name" value="thenmozhibanan"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.7"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="US-ASCII"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/thenmozhibanan/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/7h/xvcfs2ln3bb36lpppv50yw5c0000gn/T/"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="user.dir" value="/Users/thenmozhibanan/Documents/PetStoreAPITestFramework"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/thenmozhibanan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="N/A"/>
+    <property name="java.vm.version" value="15.0.2+7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="skiptests" value="true"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="findStatus" classname="GetPetStatus" time="2.772">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://petstore3.swagger.io/api/v3/pet/findByStatus?status=available
+]]></system-out>
+  </testcase>
+  <testcase name="iterateAndPrintCategoryDetails" classname="GetPetStatus" time="0.53">
+    <system-out><![CDATA[17:46:41.545 [main] INFO GetPetStatus - Find and Iterate through Lions Category in available status...
+17:46:42.064 [main] INFO BaseClass - No. of Pets in the List : 95
+17:46:42.064 [main] INFO BaseClass - 
+ Pet 2 Details :- 
+----- pet_id : '8307', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Lion-Regal}], status :available-----
+17:46:42.065 [main] INFO BaseClass - 
+ Pet 4 Details :- 
+----- pet_id : '21340', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Lion-Regal}], status :available-----
+17:46:42.065 [main] INFO BaseClass - 
+ Pet 6 Details :- 
+----- pet_id : '83169', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----
+17:46:42.065 [main] INFO BaseClass - 
+ Pet 8 Details :- 
+----- pet_id : '24612', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----
+17:46:42.066 [main] INFO BaseClass - 
+ Pet 10 Details :- 
+----- pet_id : '50235', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----
+17:46:42.066 [main] INFO BaseClass - 
+ Pet 12 Details :- 
+----- pet_id : '12442', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----
+17:46:42.066 [main] INFO BaseClass - 
+ Pet 14 Details :- 
+----- pet_id : '27291', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----
+17:46:42.066 [main] INFO BaseClass - 
+ Pet 16 Details :- 
+----- pet_id : '42331', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----
+17:46:42.066 [main] INFO BaseClass - 
+ Pet 18 Details :- 
+----- pet_id : '17352', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----
+17:46:42.066 [main] INFO BaseClass - 
+ Pet 20 Details :- 
+----- pet_id : '39754', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----
+17:46:42.066 [main] INFO BaseClass - 
+ Pet 22 Details :- 
+----- pet_id : '12351', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----
+17:46:42.067 [main] ERROR BaseClass - Caught Null pointer Exception as name is null for referred category
+]]></system-out>
+  </testcase>
+  <testcase name="validateStatusCode" classname="GetPetStatus" time="0.016">
+    <system-out><![CDATA[17:46:42.067 [main] INFO GetPetStatus - Validating the Response code...
+]]></system-out>
+  </testcase>
+  <testcase name="validateTimeTaken" classname="GetPetStatus" time="0.03">
+    <failure message="1 expectation failed.&#10;Expected response time was not a value less than &lt;200L&gt; milliseconds, was 2569 milliseconds (2569 milliseconds)." type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected response time was not a value less than <200L> milliseconds, was 2569 milliseconds (2569 milliseconds).
+	at GetPetStatus.validateTimeTaken(GetPetStatus.java:59)
+]]></failure>
+    <system-out><![CDATA[17:46:42.091 [main] INFO GetPetStatus - Validating that time taken to findByStatus request should less than 200ms...
+]]></system-out>
+  </testcase>
+  <testcase name="iterateAndPrintCategoryDetailsForAllStatus" classname="GetPetStatus" time="1.84">
+    <system-out><![CDATA[17:46:42.121 [main] INFO GetPetStatus - Find and Iterate through Lions Category for All Status
+Request method:	GET
+Request URI:	https://petstore3.swagger.io/api/v3/pet/findByStatus?status=available&status=pending&status=sold
+17:46:43.872 [main] ERROR GetPetStatus - API is not taking subsequent query params,only first status is considered
+17:46:43.953 [main] INFO BaseClass - No. of Pets in the List : 64
+17:46:43.953 [main] ERROR BaseClass - Caught Null pointer Exception as name is null for referred category
+17:46:43.953 [main] INFO BaseClass - 
+ Pet 2 Details :- 
+----- pet_id : '30097', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Lion-Regal}], status :available-----
+17:46:43.953 [main] INFO BaseClass - 
+ Pet 4 Details :- 
+----- pet_id : '63475', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Lion-Regal}], status :available-----
+17:46:43.953 [main] ERROR BaseClass - Caught Null pointer Exception as name is null for referred category
+17:46:43.954 [main] INFO BaseClass - 
+ Pet 6 Details :- 
+----- pet_id : '76988', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----
+17:46:43.954 [main] INFO BaseClass - 
+ Pet 8 Details :- 
+----- pet_id : '20517', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----
+17:46:43.954 [main] INFO BaseClass - 
+ Pet 10 Details :- 
+----- pet_id : '91072', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----
+17:46:43.954 [main] INFO BaseClass - 
+ Pet 12 Details :- 
+----- pet_id : '56240', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----
+17:46:43.954 [main] INFO BaseClass - 
+ Pet 14 Details :- 
+----- pet_id : '27338', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----
+17:46:43.954 [main] INFO BaseClass - 
+ Pet 16 Details :- 
+----- pet_id : '75229', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----
+17:46:43.954 [main] INFO BaseClass - 
+ Pet 18 Details :- 
+----- pet_id : '14165', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----
+17:46:43.954 [main] INFO BaseClass - 
+ Pet 20 Details :- 
+----- pet_id : '20754', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----
+17:46:43.954 [main] INFO BaseClass - 
+ Pet 22 Details :- 
+----- pet_id : '19808', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----
+]]></system-out>
+  </testcase>
+  <testcase name="buildAndAddPetToAvailable" classname="AddPetAndFindStatus" time="1.734">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://petstore3.swagger.io/api/v3/pet
+]]></system-out>
+  </testcase>
+  <testcase name="findStatusInAvailable" classname="AddPetAndFindStatus" time="1.682">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://petstore3.swagger.io/api/v3/pet/findByStatus?status=available
+17:46:52.404 [main] INFO BaseClass - No. of Pets in the List : 64
+17:46:52.404 [main] ERROR BaseClass - Caught Null pointer Exception as name is null for referred category
+17:46:52.404 [main] INFO BaseClass - 
+ Pet 2 Details :- 
+----- pet_id : '30097', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Lion-Regal}], status :available-----
+17:46:52.404 [main] INFO BaseClass - 
+ Pet 4 Details :- 
+----- pet_id : '63475', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Lion-Regal}], status :available-----
+17:46:52.404 [main] ERROR BaseClass - Caught Null pointer Exception as name is null for referred category
+17:46:52.404 [main] INFO BaseClass - 
+ Pet 6 Details :- 
+----- pet_id : '76988', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----
+17:46:52.404 [main] INFO BaseClass - 
+ Pet 8 Details :- 
+----- pet_id : '20517', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----
+17:46:52.404 [main] INFO BaseClass - 
+ Pet 10 Details :- 
+----- pet_id : '91072', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----
+17:46:52.404 [main] INFO BaseClass - 
+ Pet 12 Details :- 
+----- pet_id : '56240', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----
+17:46:52.404 [main] INFO BaseClass - 
+ Pet 14 Details :- 
+----- pet_id : '27338', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----
+17:46:52.404 [main] INFO BaseClass - 
+ Pet 16 Details :- 
+----- pet_id : '75229', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----
+17:46:52.404 [main] INFO BaseClass - 
+ Pet 18 Details :- 
+----- pet_id : '14165', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----
+17:46:52.405 [main] INFO BaseClass - 
+ Pet 20 Details :- 
+----- pet_id : '20754', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----
+17:46:52.405 [main] INFO BaseClass - 
+ Pet 22 Details :- 
+----- pet_id : '19808', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----
+]]></system-out>
+  </testcase>
+  <testcase name="buildAndAddPetToPending" classname="AddPetAndFindStatus" time="1.812">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://petstore3.swagger.io/api/v3/pet
+]]></system-out>
+  </testcase>
+  <testcase name="findStatusInPending" classname="AddPetAndFindStatus" time="1.759">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://petstore3.swagger.io/api/v3/pet/findByStatus?status=pending
+17:46:55.979 [main] INFO BaseClass - No. of Pets in the List : 11
+17:46:55.979 [main] INFO BaseClass - 
+ Pet 2 Details :- 
+----- pet_id : '3770', category_id : 12, category_name : Lions, pet_name : Mufhaza, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:12, name:Majesty}], status :pending-----
+17:46:55.979 [main] INFO BaseClass - 
+ Pet 4 Details :- 
+----- pet_id : '80102', category_id : 12, category_name : Lions, pet_name : Mufhaza, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:12, name:Majesty}], status :pending-----
+17:46:55.979 [main] INFO BaseClass - 
+ Pet 6 Details :- 
+----- pet_id : '41152', category_id : 12, category_name : Lions, pet_name : Mufhaza, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:12, name:Majesty}], status :pending-----
+17:46:55.979 [main] INFO BaseClass - 
+ Pet 8 Details :- 
+----- pet_id : '25313', category_id : 12, category_name : Lions, pet_name : Mufhaza, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:12, name:Majesty}], status :pending-----
+17:46:55.979 [main] INFO BaseClass - 
+ Pet 10 Details :- 
+----- pet_id : '95195', category_id : 12, category_name : Lions, pet_name : Mufhaza, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:12, name:Majesty}], status :pending-----
+17:46:55.979 [main] INFO BaseClass - 
+ Pet 12 Details :- 
+----- pet_id : '94312', category_id : 12, category_name : Lions, pet_name : Mufhaza, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:12, name:Majesty}], status :pending-----
+17:46:55.979 [main] INFO BaseClass - 
+ Pet 14 Details :- 
+----- pet_id : '612', category_id : 12, category_name : Lions, pet_name : Mufhaza, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:12, name:Majesty}], status :pending-----
+]]></system-out>
+  </testcase>
+  <testcase name="buildAndAddPetToSold" classname="AddPetAndFindStatus" time="1.811">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://petstore3.swagger.io/api/v3/pet
+]]></system-out>
+  </testcase>
+  <testcase name="findStatusAndDeleteCategory" classname="AddPetAndFindStatus" time="10.325">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://petstore3.swagger.io/api/v3/pet/findByStatus?status=sold
+17:46:59.594 [main] ERROR BaseClass - Caught Null pointer Exception as name is null for referred category
+17:46:59.595 [main] ERROR BaseClass - Caught Null pointer Exception as name is null for referred category
+17:46:59.595 [main] ERROR BaseClass - Caught Null pointer Exception as name is null for referred category
+17:46:59.595 [main] INFO AddPetAndFindStatus - Deleting Nala with Id 18968...
+Request method:	DELETE
+Request URI:	https://petstore3.swagger.io/api/v3/pet/18968
+Request method:	GET
+Request URI:	https://petstore3.swagger.io/api/v3/pet/18968
+17:47:03.031 [main] INFO AddPetAndFindStatus - Deleting Nala with Id 2242...
+Request method:	DELETE
+Request URI:	https://petstore3.swagger.io/api/v3/pet/2242
+Request method:	GET
+Request URI:	https://petstore3.swagger.io/api/v3/pet/2242
+Request method:	GET
+Request URI:	https://petstore3.swagger.io/api/v3/pet/findByStatus?status=sold
+17:47:08.115 [main] INFO BaseClass - No. of Pets in the List : 9
+17:47:08.115 [main] ERROR BaseClass - Caught Null pointer Exception as name is null for referred category
+17:47:08.115 [main] ERROR BaseClass - Caught Null pointer Exception as name is null for referred category
+17:47:08.115 [main] ERROR BaseClass - Caught Null pointer Exception as name is null for referred category
+17:47:08.115 [main] INFO BaseClass - 
+ Pet 2 Details :- 
+----- pet_id : '18968', category_id : 15, category_name : Lions, pet_name : Nala, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:15, name:Lioness}], status :sold-----
+]]></system-out>
+  </testcase>
+  <testcase name="findStatusInSold" classname="AddPetAndFindStatus" time="1.549">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://petstore3.swagger.io/api/v3/pet/findByStatus?status=sold
+17:47:09.665 [main] INFO BaseClass - No. of Pets in the List : 9
+17:47:09.665 [main] ERROR BaseClass - Caught Null pointer Exception as name is null for referred category
+17:47:09.666 [main] ERROR BaseClass - Caught Null pointer Exception as name is null for referred category
+17:47:09.666 [main] ERROR BaseClass - Caught Null pointer Exception as name is null for referred category
+17:47:09.666 [main] INFO BaseClass - 
+ Pet 2 Details :- 
+----- pet_id : '18968', category_id : 15, category_name : Lions, pet_name : Nala, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:15, name:Lioness}], status :sold-----
+]]></system-out>
+  </testcase>
+</testsuite>

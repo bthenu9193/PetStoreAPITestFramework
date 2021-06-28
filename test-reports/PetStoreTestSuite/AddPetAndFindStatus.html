@@ -1,0 +1,208 @@
+<html>
+<head>
+<title>TestNG:  AddPetAndFindStatus</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>AddPetAndFindStatus</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jun 28 17:46:48 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>20 seconds (20674 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='AddPetAndFindStatus.buildAndAddPetToAvailable()'><b>buildAndAddPetToAvailable</b><br>Test class: AddPetAndFindStatus</td>
+<td></td>
+<td>1</td>
+<td>AddPetAndFindStatus@4678a2eb</td></tr>
+<tr>
+<td title='AddPetAndFindStatus.buildAndAddPetToPending()'><b>buildAndAddPetToPending</b><br>Test class: AddPetAndFindStatus</td>
+<td></td>
+<td>1</td>
+<td>AddPetAndFindStatus@4678a2eb</td></tr>
+<tr>
+<td title='AddPetAndFindStatus.buildAndAddPetToSold()'><b>buildAndAddPetToSold</b><br>Test class: AddPetAndFindStatus</td>
+<td></td>
+<td>1</td>
+<td>AddPetAndFindStatus@4678a2eb</td></tr>
+<tr>
+<td title='AddPetAndFindStatus.findStatusAndDeleteCategory()'><b>findStatusAndDeleteCategory</b><br>Test class: AddPetAndFindStatus<br/>
+<a href="#Output-445554393" onClick='toggleBox("Output-445554393", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-445554393" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-445554393">
+Deleting Nala with Id 18968...<br/>
+Deleting Nala with Id 2242...<br/>
+No. of Pets in the List : 9<br/>
+Details of Lions in sold status:<br/>
+
+ Pet 1 Details :- 
+----- pet_id : '18968', category_id : 15, category_name : Lions, pet_name : Nala, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:15, name:Lioness}], status :sold-----<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>AddPetAndFindStatus@4678a2eb</td></tr>
+<tr>
+<td title='AddPetAndFindStatus.findStatusInAvailable()'><b>findStatusInAvailable</b><br>Test class: AddPetAndFindStatus<br/>
+<a href="#Output-411721666" onClick='toggleBox("Output-411721666", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-411721666" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-411721666">
+No. of Pets in the List : 64<br/>
+Details of Lions in available status:<br/>
+
+ Pet 1 Details :- 
+----- pet_id : '30097', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Lion-Regal}], status :available-----<br/>
+
+ Pet 3 Details :- 
+----- pet_id : '63475', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Lion-Regal}], status :available-----<br/>
+
+ Pet 5 Details :- 
+----- pet_id : '76988', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----<br/>
+
+ Pet 7 Details :- 
+----- pet_id : '20517', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----<br/>
+
+ Pet 9 Details :- 
+----- pet_id : '91072', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----<br/>
+
+ Pet 11 Details :- 
+----- pet_id : '56240', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----<br/>
+
+ Pet 13 Details :- 
+----- pet_id : '27338', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----<br/>
+
+ Pet 15 Details :- 
+----- pet_id : '75229', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----<br/>
+
+ Pet 17 Details :- 
+----- pet_id : '14165', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----<br/>
+
+ Pet 19 Details :- 
+----- pet_id : '20754', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----<br/>
+
+ Pet 21 Details :- 
+----- pet_id : '19808', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>AddPetAndFindStatus@4678a2eb</td></tr>
+<tr>
+<td title='AddPetAndFindStatus.findStatusInPending()'><b>findStatusInPending</b><br>Test class: AddPetAndFindStatus<br/>
+<a href="#Output-1181041291" onClick='toggleBox("Output-1181041291", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1181041291" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1181041291">
+No. of Pets in the List : 11<br/>
+Details of Lions in pending status:<br/>
+
+ Pet 1 Details :- 
+----- pet_id : '3770', category_id : 12, category_name : Lions, pet_name : Mufhaza, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:12, name:Majesty}], status :pending-----<br/>
+
+ Pet 3 Details :- 
+----- pet_id : '80102', category_id : 12, category_name : Lions, pet_name : Mufhaza, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:12, name:Majesty}], status :pending-----<br/>
+
+ Pet 5 Details :- 
+----- pet_id : '41152', category_id : 12, category_name : Lions, pet_name : Mufhaza, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:12, name:Majesty}], status :pending-----<br/>
+
+ Pet 7 Details :- 
+----- pet_id : '25313', category_id : 12, category_name : Lions, pet_name : Mufhaza, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:12, name:Majesty}], status :pending-----<br/>
+
+ Pet 9 Details :- 
+----- pet_id : '95195', category_id : 12, category_name : Lions, pet_name : Mufhaza, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:12, name:Majesty}], status :pending-----<br/>
+
+ Pet 11 Details :- 
+----- pet_id : '94312', category_id : 12, category_name : Lions, pet_name : Mufhaza, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:12, name:Majesty}], status :pending-----<br/>
+
+ Pet 13 Details :- 
+----- pet_id : '612', category_id : 12, category_name : Lions, pet_name : Mufhaza, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:12, name:Majesty}], status :pending-----<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>AddPetAndFindStatus@4678a2eb</td></tr>
+<tr>
+<td title='AddPetAndFindStatus.findStatusInSold()'><b>findStatusInSold</b><br>Test class: AddPetAndFindStatus<br/>
+<a href="#Output-1816978819" onClick='toggleBox("Output-1816978819", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1816978819" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1816978819">
+No. of Pets in the List : 9<br/>
+Details of Lions in sold status:<br/>
+
+ Pet 1 Details :- 
+----- pet_id : '18968', category_id : 15, category_name : Lions, pet_name : Nala, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:15, name:Lioness}], status :sold-----<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>AddPetAndFindStatus@4678a2eb</td></tr>
+</table><p>
+</body>
+</html>

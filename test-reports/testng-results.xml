@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[No. of Pets in the List : 95]]>
+    </line>
+    <line>
+      <![CDATA[Details of Lions in available status:]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 1 Details :- 
+----- pet_id : '8307', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Lion-Regal}], status :available-----]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 3 Details :- 
+----- pet_id : '21340', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Lion-Regal}], status :available-----]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 5 Details :- 
+----- pet_id : '83169', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 7 Details :- 
+----- pet_id : '24612', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 9 Details :- 
+----- pet_id : '50235', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 11 Details :- 
+----- pet_id : '12442', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 13 Details :- 
+----- pet_id : '27291', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 15 Details :- 
+----- pet_id : '42331', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 17 Details :- 
+----- pet_id : '17352', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 19 Details :- 
+----- pet_id : '39754', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 21 Details :- 
+----- pet_id : '12351', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+    </line>
+    <line>
+      <![CDATA[No. of Pets in the List : 64]]>
+    </line>
+    <line>
+      <![CDATA[Details of Lions in available status:]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 1 Details :- 
+----- pet_id : '30097', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Lion-Regal}], status :available-----]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 3 Details :- 
+----- pet_id : '63475', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Lion-Regal}], status :available-----]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 5 Details :- 
+----- pet_id : '76988', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 7 Details :- 
+----- pet_id : '20517', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 9 Details :- 
+----- pet_id : '91072', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 11 Details :- 
+----- pet_id : '56240', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 13 Details :- 
+----- pet_id : '27338', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 15 Details :- 
+----- pet_id : '75229', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 17 Details :- 
+----- pet_id : '14165', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 19 Details :- 
+----- pet_id : '20754', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 21 Details :- 
+----- pet_id : '19808', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+    </line>
+    <line>
+      <![CDATA[No. of Pets in the List : 64]]>
+    </line>
+    <line>
+      <![CDATA[Details of Lions in available status:]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 1 Details :- 
+----- pet_id : '30097', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Lion-Regal}], status :available-----]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 3 Details :- 
+----- pet_id : '63475', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Lion-Regal}], status :available-----]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 5 Details :- 
+----- pet_id : '76988', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 7 Details :- 
+----- pet_id : '20517', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 9 Details :- 
+----- pet_id : '91072', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 11 Details :- 
+----- pet_id : '56240', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 13 Details :- 
+----- pet_id : '27338', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 15 Details :- 
+----- pet_id : '75229', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 17 Details :- 
+----- pet_id : '14165', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 19 Details :- 
+----- pet_id : '20754', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 21 Details :- 
+----- pet_id : '19808', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+    </line>
+    <line>
+      <![CDATA[No. of Pets in the List : 11]]>
+    </line>
+    <line>
+      <![CDATA[Details of Lions in pending status:]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 1 Details :- 
+----- pet_id : '3770', category_id : 12, category_name : Lions, pet_name : Mufhaza, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:12, name:Majesty}], status :pending-----]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 3 Details :- 
+----- pet_id : '80102', category_id : 12, category_name : Lions, pet_name : Mufhaza, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:12, name:Majesty}], status :pending-----]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 5 Details :- 
+----- pet_id : '41152', category_id : 12, category_name : Lions, pet_name : Mufhaza, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:12, name:Majesty}], status :pending-----]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 7 Details :- 
+----- pet_id : '25313', category_id : 12, category_name : Lions, pet_name : Mufhaza, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:12, name:Majesty}], status :pending-----]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 9 Details :- 
+----- pet_id : '95195', category_id : 12, category_name : Lions, pet_name : Mufhaza, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:12, name:Majesty}], status :pending-----]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 11 Details :- 
+----- pet_id : '94312', category_id : 12, category_name : Lions, pet_name : Mufhaza, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:12, name:Majesty}], status :pending-----]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 13 Details :- 
+----- pet_id : '612', category_id : 12, category_name : Lions, pet_name : Mufhaza, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:12, name:Majesty}], status :pending-----]]>
+    </line>
+    <line>
+      <![CDATA[Deleting Nala with Id 18968...]]>
+    </line>
+    <line>
+      <![CDATA[Deleting Nala with Id 2242...]]>
+    </line>
+    <line>
+      <![CDATA[No. of Pets in the List : 9]]>
+    </line>
+    <line>
+      <![CDATA[Details of Lions in sold status:]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 1 Details :- 
+----- pet_id : '18968', category_id : 15, category_name : Lions, pet_name : Nala, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:15, name:Lioness}], status :sold-----]]>
+    </line>
+    <line>
+      <![CDATA[No. of Pets in the List : 9]]>
+    </line>
+    <line>
+      <![CDATA[Details of Lions in sold status:]]>
+    </line>
+    <line>
+      <![CDATA[
+ Pet 1 Details :- 
+----- pet_id : '18968', category_id : 15, category_name : Lions, pet_name : Nala, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:15, name:Lioness}], status :sold-----]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-06-28T17:46:38 IST" name="PetStoreTestSuite" finished-at="2021-06-28T17:47:09 IST" duration-ms="30910">
+    <groups>
+    </groups>
+    <test started-at="2021-06-28T17:46:38 IST" name="GetPetStatus" finished-at="2021-06-28T17:46:43 IST" duration-ms="5199">
+      <class name="GetPetStatus">
+        <test-method is-config="true" signature="initTest()[pri:0, instance:GetPetStatus@5af3a0f]" started-at="2021-06-28T17:46:38 IST" name="initTest" finished-at="2021-06-28T17:46:38 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method is-config="true" signature="initializeVal()[pri:0, instance:GetPetStatus@5af3a0f]" started-at="2021-06-28T17:46:38 IST" name="initializeVal" finished-at="2021-06-28T17:46:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeVal -->
+        <test-method signature="findStatus()[pri:1, instance:GetPetStatus@5af3a0f]" started-at="2021-06-28T17:46:38 IST" name="findStatus" finished-at="2021-06-28T17:46:41 IST" duration-ms="2771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findStatus -->
+        <test-method signature="iterateAndPrintCategoryDetails()[pri:2, instance:GetPetStatus@5af3a0f]" started-at="2021-06-28T17:46:41 IST" name="iterateAndPrintCategoryDetails" finished-at="2021-06-28T17:46:42 IST" depends-on-methods="GetPetStatus.findStatus" duration-ms="523" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[No. of Pets in the List : 95]]>
+            </line>
+            <line>
+              <![CDATA[Details of Lions in available status:]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 1 Details :- 
+----- pet_id : '8307', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Lion-Regal}], status :available-----]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 3 Details :- 
+----- pet_id : '21340', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Lion-Regal}], status :available-----]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 5 Details :- 
+----- pet_id : '83169', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 7 Details :- 
+----- pet_id : '24612', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 9 Details :- 
+----- pet_id : '50235', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 11 Details :- 
+----- pet_id : '12442', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 13 Details :- 
+----- pet_id : '27291', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 15 Details :- 
+----- pet_id : '42331', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 17 Details :- 
+----- pet_id : '17352', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 19 Details :- 
+----- pet_id : '39754', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 21 Details :- 
+----- pet_id : '12351', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- iterateAndPrintCategoryDetails -->
+        <test-method signature="validateStatusCode()[pri:2, instance:GetPetStatus@5af3a0f]" started-at="2021-06-28T17:46:42 IST" name="validateStatusCode" finished-at="2021-06-28T17:46:42 IST" depends-on-methods="GetPetStatus.findStatus" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateStatusCode -->
+        <test-method signature="validateTimeTaken()[pri:2, instance:GetPetStatus@5af3a0f]" started-at="2021-06-28T17:46:42 IST" name="validateTimeTaken" finished-at="2021-06-28T17:46:42 IST" depends-on-methods="GetPetStatus.findStatus" duration-ms="26" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected response time was not a value less than <200L> milliseconds, was 2569 milliseconds (2569 milliseconds).]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected response time was not a value less than <200L> milliseconds, was 2569 milliseconds (2569 milliseconds).
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.time(ResponseSpecificationImpl.groovy:118)
+at io.restassured.internal.ValidatableResponseOptionsImpl.time(ValidatableResponseOptionsImpl.java:409)
+at io.restassured.internal.ValidatableResponseImpl.super$2$time(ValidatableResponseImpl.groovy)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+at io.restassured.internal.ValidatableResponseImpl.time(ValidatableResponseImpl.groovy:58)
+at io.restassured.internal.ValidatableResponseImpl.time(ValidatableResponseImpl.groovy)
+at BaseClass.validateResponseTime(BaseClass.java:57)
+at GetPetStatus.validateTimeTaken(GetPetStatus.java:59)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:658)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+at org.testng.TestNG.runSuites(TestNG.java:997)
+at org.testng.TestNG.run(TestNG.java:965)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTimeTaken -->
+        <test-method signature="iterateAndPrintCategoryDetailsForAllStatus()[pri:3, instance:GetPetStatus@5af3a0f]" started-at="2021-06-28T17:46:42 IST" name="iterateAndPrintCategoryDetailsForAllStatus" finished-at="2021-06-28T17:46:43 IST" depends-on-methods="GetPetStatus.iterateAndPrintCategoryDetails" duration-ms="1833" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[No. of Pets in the List : 64]]>
+            </line>
+            <line>
+              <![CDATA[Details of Lions in available status:]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 1 Details :- 
+----- pet_id : '30097', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Lion-Regal}], status :available-----]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 3 Details :- 
+----- pet_id : '63475', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Lion-Regal}], status :available-----]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 5 Details :- 
+----- pet_id : '76988', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 7 Details :- 
+----- pet_id : '20517', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 9 Details :- 
+----- pet_id : '91072', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 11 Details :- 
+----- pet_id : '56240', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 13 Details :- 
+----- pet_id : '27338', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 15 Details :- 
+----- pet_id : '75229', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 17 Details :- 
+----- pet_id : '14165', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 19 Details :- 
+----- pet_id : '20754', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 21 Details :- 
+----- pet_id : '19808', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- iterateAndPrintCategoryDetailsForAllStatus -->
+      </class> <!-- GetPetStatus -->
+    </test> <!-- GetPetStatus -->
+    <test started-at="2021-06-28T17:46:48 IST" name="AddPetAndFindStatus" finished-at="2021-06-28T17:47:09 IST" duration-ms="20674">
+      <class name="AddPetAndFindStatus">
+        <test-method signature="buildAndAddPetToAvailable()[pri:1, instance:AddPetAndFindStatus@4678a2eb]" started-at="2021-06-28T17:46:48 IST" name="buildAndAddPetToAvailable" finished-at="2021-06-28T17:46:50 IST" duration-ms="1734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buildAndAddPetToAvailable -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:AddPetAndFindStatus@4678a2eb]" started-at="2021-06-28T17:46:48 IST" name="initialize" finished-at="2021-06-28T17:46:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="initTest()[pri:0, instance:AddPetAndFindStatus@4678a2eb]" started-at="2021-06-28T17:46:48 IST" name="initTest" finished-at="2021-06-28T17:46:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method signature="findStatusInAvailable()[pri:2, instance:AddPetAndFindStatus@4678a2eb]" started-at="2021-06-28T17:46:50 IST" name="findStatusInAvailable" finished-at="2021-06-28T17:46:52 IST" duration-ms="1677" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[No. of Pets in the List : 64]]>
+            </line>
+            <line>
+              <![CDATA[Details of Lions in available status:]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 1 Details :- 
+----- pet_id : '30097', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Lion-Regal}], status :available-----]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 3 Details :- 
+----- pet_id : '63475', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Lion-Regal}], status :available-----]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 5 Details :- 
+----- pet_id : '76988', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 7 Details :- 
+----- pet_id : '20517', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 9 Details :- 
+----- pet_id : '91072', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 11 Details :- 
+----- pet_id : '56240', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 13 Details :- 
+----- pet_id : '27338', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 15 Details :- 
+----- pet_id : '75229', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 17 Details :- 
+----- pet_id : '14165', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 19 Details :- 
+----- pet_id : '20754', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 21 Details :- 
+----- pet_id : '19808', category_id : 10, category_name : Lions, pet_name : Simbha, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:10, name:Regal}], status :available-----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- findStatusInAvailable -->
+        <test-method signature="buildAndAddPetToPending()[pri:3, instance:AddPetAndFindStatus@4678a2eb]" started-at="2021-06-28T17:46:52 IST" name="buildAndAddPetToPending" finished-at="2021-06-28T17:46:54 IST" duration-ms="1817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buildAndAddPetToPending -->
+        <test-method signature="findStatusInPending()[pri:4, instance:AddPetAndFindStatus@4678a2eb]" started-at="2021-06-28T17:46:54 IST" name="findStatusInPending" finished-at="2021-06-28T17:46:55 IST" duration-ms="1757" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[No. of Pets in the List : 11]]>
+            </line>
+            <line>
+              <![CDATA[Details of Lions in pending status:]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 1 Details :- 
+----- pet_id : '3770', category_id : 12, category_name : Lions, pet_name : Mufhaza, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:12, name:Majesty}], status :pending-----]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 3 Details :- 
+----- pet_id : '80102', category_id : 12, category_name : Lions, pet_name : Mufhaza, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:12, name:Majesty}], status :pending-----]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 5 Details :- 
+----- pet_id : '41152', category_id : 12, category_name : Lions, pet_name : Mufhaza, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:12, name:Majesty}], status :pending-----]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 7 Details :- 
+----- pet_id : '25313', category_id : 12, category_name : Lions, pet_name : Mufhaza, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:12, name:Majesty}], status :pending-----]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 9 Details :- 
+----- pet_id : '95195', category_id : 12, category_name : Lions, pet_name : Mufhaza, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:12, name:Majesty}], status :pending-----]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 11 Details :- 
+----- pet_id : '94312', category_id : 12, category_name : Lions, pet_name : Mufhaza, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:12, name:Majesty}], status :pending-----]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 13 Details :- 
+----- pet_id : '612', category_id : 12, category_name : Lions, pet_name : Mufhaza, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:12, name:Majesty}], status :pending-----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- findStatusInPending -->
+        <test-method signature="buildAndAddPetToSold()[pri:5, instance:AddPetAndFindStatus@4678a2eb]" started-at="2021-06-28T17:46:55 IST" name="buildAndAddPetToSold" finished-at="2021-06-28T17:46:57 IST" duration-ms="1813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buildAndAddPetToSold -->
+        <test-method signature="findStatusAndDeleteCategory()[pri:6, instance:AddPetAndFindStatus@4678a2eb]" started-at="2021-06-28T17:46:57 IST" name="findStatusAndDeleteCategory" finished-at="2021-06-28T17:47:08 IST" duration-ms="10322" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Deleting Nala with Id 18968...]]>
+            </line>
+            <line>
+              <![CDATA[Deleting Nala with Id 2242...]]>
+            </line>
+            <line>
+              <![CDATA[No. of Pets in the List : 9]]>
+            </line>
+            <line>
+              <![CDATA[Details of Lions in sold status:]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 1 Details :- 
+----- pet_id : '18968', category_id : 15, category_name : Lions, pet_name : Nala, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:15, name:Lioness}], status :sold-----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- findStatusAndDeleteCategory -->
+        <test-method signature="findStatusInSold()[pri:6, instance:AddPetAndFindStatus@4678a2eb]" started-at="2021-06-28T17:47:08 IST" name="findStatusInSold" finished-at="2021-06-28T17:47:09 IST" duration-ms="1550" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[No. of Pets in the List : 9]]>
+            </line>
+            <line>
+              <![CDATA[Details of Lions in sold status:]]>
+            </line>
+            <line>
+              <![CDATA[
+ Pet 1 Details :- 
+----- pet_id : '18968', category_id : 15, category_name : Lions, pet_name : Nala, pet_photoUrls :[https://www.shutterstock.com/image-photo/single-lion-looking-regal-standing-proudly-555551179], array of tags :[Tag:{id:15, name:Lioness}], status :sold-----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- findStatusInSold -->
+      </class> <!-- AddPetAndFindStatus -->
+    </test> <!-- AddPetAndFindStatus -->
+  </suite> <!-- PetStoreTestSuite -->
+</testng-results>

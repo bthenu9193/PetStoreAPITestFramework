@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 36.721 s <<< FAILURE! - in TestSuite
+GetPetStatus.validateTimeTaken  Time elapsed: 0.03 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected response time was not a value less than <200L> milliseconds, was 2569 milliseconds (2569 milliseconds).
+	at GetPetStatus.validateTimeTaken(GetPetStatus.java:59)
+
