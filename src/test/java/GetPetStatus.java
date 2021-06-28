@@ -20,6 +20,7 @@ import org.testng.annotations.Test;
  * validateStatusCode() validates the response code and asserts if not 200
  * validateTimeTaken() validates response time and asserts if greater than 200ms
  * iterateAndPrintCategoryDetails() Print details of Lions in the list
+ * iterateAndPrintCategoryDetailsForAllStatus() findByStatus with multiple status and iterate through the category, print Lions
  *
  */
 public class GetPetStatus extends BaseClass {

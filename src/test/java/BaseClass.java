@@ -3,6 +3,7 @@ import com.qa.main.props.testContext;
 import io.restassured.response.Response;
 import io.restassured.response.ResponseBody;
 import org.apache.commons.lang3.RandomStringUtils;
+import org.testng.Reporter;
 import org.testng.annotations.BeforeClass;
 
 import java.io.FileNotFoundException;
@@ -59,16 +60,18 @@ public class BaseClass {
     protected void iteratePetsAndPrintSpecificCategory(Response response, String category) throws Exception {
         List<Pet> petList = response.body().jsonPath().getList("", Pet.class);
         log.info("No. of Pets in the List : " + petList.size());
+        Reporter.log("No. of Pets in the List : " + petList.size());
         ResponseBody body = response.getBody();
 
         if ((body.asString()).contains(category)) {
-            System.out.println("Details of "+ category+":");
+            Reporter.log("Details of "+ category+ " in "+ petList.get(0).getStatus()+" status:");
             int count=1;
             for (Pet pet : petList) {
                 try {
                     if (pet.getCategory().getName().equalsIgnoreCase(category)) {
                         try {
-                            log.info("Pet " + count++ + " Details :- \n" + pet.toString());
+                            Reporter.log("\n Pet " + count++ + " Details :- \n" + pet.toString());
+                            log.info("\n Pet " + count++ + " Details :- \n" + pet.toString());
                         } catch (Exception e) {
                             log.error("Caught Exception in getting pet class values");
                         }

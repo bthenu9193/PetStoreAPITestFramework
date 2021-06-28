@@ -6,10 +6,12 @@ import com.qa.main.props.testContext;
 import io.restassured.response.Response;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.testng.Reporter;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 /*
  * This class can be used to add new pet and find the status of specific category[ex.Lions] in specific status[ex. available](other values pending,sold)
  * Here category can be retrieved from environment Variables, system properties or from properties file at PetStoreAPITestFramework/src/main/resources/val.properties
@@ -22,7 +24,7 @@ import java.util.List;
  * findStatusInPending() calls the findByStatus API with status pending , validates the response code and Print details of Lions
  * buildAndAddPetToSold() build and add a new pet via API with status sold
  * findStatusInSold() calls the findByStatus API with status sold, validates the response code and Print details of Lions
- * [Only for Sold Also added test to delete all the pets of specific category and verify whether the pet is deleted.
+ * findStatusAndDeleteCategory() added test to delete all the pets of specific category in status.sold and verify whether the pet is deleted.
  *
  *
  */
@@ -40,7 +42,7 @@ public class AddPetAndFindStatus extends BaseClass {
 
     //Build new pet and add it via API (status available)
 
-    @Test(priority = 1)
+   @Test(priority = 1)
     public void buildAndAddPetToAvailable() {
         Pet newPet = buildNewPetDetails("Simbha", category, "Regal",Status.available,012);
         response=pet.addPet(newPet);
@@ -59,7 +61,8 @@ public class AddPetAndFindStatus extends BaseClass {
     }
 
     //Build new pet and add it via API (status pending)
-    @Test(priority = 3)
+
+   @Test(priority = 3)
     public void buildAndAddPetToPending() {
         Pet newPet = buildNewPetDetails("Mufhaza", category, "Majesty",Status.pending,12);
         response=pet.addPet(newPet);
@@ -69,11 +72,12 @@ public class AddPetAndFindStatus extends BaseClass {
     //calls the findByStatus API with status pending, validates the response code and
     // Print details of specific Animal selected via Category
 
-    @Test(priority = 4)
+   @Test(priority = 4)
     public void findStatusInPending() throws Exception {
         response=pet.findByStatus(Status.pending);
         validateResponseCode(response);
         iteratePetsAndPrintSpecificCategory(response,category);
+
     }
 
     //Build new pet and add it via API (status sold)
@@ -85,21 +89,32 @@ public class AddPetAndFindStatus extends BaseClass {
     }
     //calls the findByStatus API with status sold, validates the response code and
     //Print details of specific Animal selected via Category
-    //Delete the pets in specific category and verify whether the item is deleted
 
     @Test(priority = 6)
     public void findStatusInSold() throws Exception {
         response = pet.findByStatus(Status.sold);
         validateResponseCode(response);
         iteratePetsAndPrintSpecificCategory(response, category);
-        List<Pet> petList = GetPetsOfSpecificCategory(response, category, Status.sold);
+
+    }
+
+    //Print details of specific Animal
+    //Delete the pets in specific category and verify whether the item is deleted
+
+    @Test(priority = 6)
+    public void findStatusAndDeleteCategory() throws Exception {
+        response = pet.findByStatus(Status.sold);
+        validateResponseCode(response);
+       List<Pet> petList = GetPetsOfSpecificCategory(response, category, Status.sold);
         if(!petList.isEmpty())
-        for (Pet petItem : petList) {
-            response = pet.deletePet(petItem);
-            validateResponseCode(response);
-            // Set wait as sometimes it takes little more time to delete from the database
-            pet.verifyPetDeleted(petItem);
-        }
+            for (Pet petItem : petList) {
+                log.info("Deleting "+petItem.getName()+" with Id "+petItem.getId() +"...");
+                Reporter.log("Deleting "+petItem.getName()+" with Id "+petItem.getId() +"...");
+                response = pet.deletePet(petItem);
+                validateResponseCode(response);
+                pet.verifyPetDeleted(petItem);
+
+            }
         //This will verify whether the code for no pets in the specific category is handled or not
         response = pet.findByStatus(Status.sold);
         validateResponseCode(response);

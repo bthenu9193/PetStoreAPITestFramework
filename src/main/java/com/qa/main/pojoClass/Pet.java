@@ -67,13 +67,13 @@ public class Pet {
 
     @Override
     public String toString() {
-        return "pet_id : '" + id + '\'' +
+        return "----- pet_id : '" + id + '\'' +
                 ", category_id : " + category.getId() +
                 ", category_name : " + category.getName() +
                 ", pet_name : " + name +
                 ", pet_photoUrls :" + photoUrls +
                 ", array of tags :" + tags +
-                ", status :" + status;
+                ", status :" + status +"-----";
     }
 
 
