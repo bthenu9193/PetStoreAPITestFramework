@@ -1,11 +1,10 @@
 import com.qa.main.petStoreAPIs.petAPI;
 import com.qa.main.pojoClass.Status;
-import com.qa.main.props.testContext;
+import com.qa.main.props.TestContext;
 
 import io.restassured.response.Response;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -29,17 +28,11 @@ public class GetPetStatus extends BaseClass {
     Response response;
     Status status;
     String category;
-    GetPetStatus(){
-    }
 
-    GetPetStatus(Status status,String category){
-        this.status= status;
-        this.category= category;
-    }
     @BeforeClass
     public void initializeVal(){
-        this.status= Status.valueOf(testContext.getStatus());
-        this.category= testContext.getCategory();
+        this.status= Status.valueOf(TestContext.getStatus());
+        this.category= TestContext.getCategory();
     }
 
     @Test(priority = 1)
@@ -59,22 +52,13 @@ public class GetPetStatus extends BaseClass {
         validateResponseTime(this.response);
     }
 
-    @Test(priority = 2,dependsOnMethods = {"findStatus"})
-    public void iterateAndPrintCategoryDetails() throws Exception {
-        log.info("Find and Iterate through "+category+" Category in "+status+" status...");
-      iteratePetsAndPrintSpecificCategory(this.response,category);
-    }
-
-    @Test(priority = 3,dependsOnMethods = {"iterateAndPrintCategoryDetails"})
+    @Test(priority = 3)
     public void iterateAndPrintCategoryDetailsForAllStatus() throws Exception {
-        log.info("Find and Iterate through "+category+" Category for All Status");
         this.response=pet.findByAllStatus();
-        //As per SwaggerUI multiple values are allowed but as per my observation API takes first parameter status and list those alone.
+
         validateResponseCode(this.response);
         if(!(response.body().toString().contains("pending")||response.body().toString().contains("sold")))
             log.error("API is not taking subsequent query params,only first status is considered");
-        iteratePetsAndPrintSpecificCategory(this.response,category);
-
     }
 
 

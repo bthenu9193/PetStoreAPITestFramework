@@ -3,14 +3,14 @@ package com.qa.main.props;
 import java.io.IOException;
 import java.util.Properties;
 
-public class testContext {
+public class TestContext {
     public static final String category = "CATEGORY";
     public static final String status = "STATUS";
 
-    private static petProperties props;
+    private static PetProperties props;
 
     public static void init(Properties props) throws IOException {
-        testContext.props = new petProperties(props);
+        TestContext.props = new PetProperties(props);
     }
 
     public static String getCategory() {
@@ -22,10 +22,10 @@ public class testContext {
         return props.getProperty(status);
     }
 
-    private static class petProperties extends Properties {
+    private static class PetProperties extends Properties {
         private Properties properties;
 
-        petProperties(Properties properties) {
+        PetProperties(Properties properties) {
             this.properties = properties;
         }
 

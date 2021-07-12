@@ -1,5 +1,5 @@
 import com.qa.main.pojoClass.*;
-import com.qa.main.props.testContext;
+import com.qa.main.props.TestContext;
 import io.restassured.response.Response;
 import io.restassured.response.ResponseBody;
 import org.apache.commons.lang3.RandomStringUtils;
@@ -37,7 +37,7 @@ public class BaseClass {
 
     @BeforeClass
     public void initTest() throws Exception {
-      testContext.init(getProps());
+      TestContext.init(getProps());
     }
     protected Pet buildNewPetDetails(String petName, String categoryName, String TagName, Status status,long otherIds) {
         Pet newPet = new PetBuilder()
@@ -57,58 +57,25 @@ public class BaseClass {
         response.then().assertThat().time(lessThan(200L), TimeUnit.MILLISECONDS );
     }
 
-    protected void iteratePetsAndPrintSpecificCategory(Response response, String category) throws Exception {
-        List<Pet> petList = response.body().jsonPath().getList("", Pet.class);
-        log.info("No. of Pets in the List : " + petList.size());
-        Reporter.log("No. of Pets in the List : " + petList.size());
-        ResponseBody body = response.getBody();
-
-        if ((body.asString()).contains(category)) {
-            Reporter.log("Details of "+ category+ " in "+ petList.get(0).getStatus()+" status:");
-            int count=1;
-            for (Pet pet : petList) {
-                try {
-                    if (pet.getCategory().getName().equalsIgnoreCase(category)) {
-                        try {
-                            Reporter.log("\n Pet " + count++ + " Details :- \n" + pet.toString());
-                            log.info("\n Pet " + count++ + " Details :- \n" + pet.toString());
-                        } catch (Exception e) {
-                            log.error("Caught Exception in getting pet class values");
-                        }
-                    }
-                }catch (NullPointerException e) {
-                    log.error("Caught Null pointer Exception as name is null for referred category");
-
-                }
-            }
-        }
-        else{
-            log.warn(category+ " are not Present in the List");
-        //    Assert.assertTrue((body.asString()).contains(category),category+ " are not Present in the " +status+" List");
-        }
-    }
-
-    protected List<Pet> GetPetsOfSpecificCategory(Response response, String category, Status status) throws Exception {
+    protected List<Pet> GetPetsOfSpecificCategory(Response response, String category, Status status) {
         List<Pet> petList = response.body().jsonPath().getList("", Pet.class);
         ResponseBody body = response.getBody();
-        List<Pet> ListOfpetincategory =new ArrayList();
+        List<Pet> listOfPetInCategory =new ArrayList();
         if ((body.asString()).contains(category)) {
             for (Pet pet : petList) {
                 try {
                     if (pet.getCategory().getName().equalsIgnoreCase(category)) {
-                       ListOfpetincategory.add(pet);
+                       listOfPetInCategory.add(pet);
                     }
                 }catch (NullPointerException e) {
                     log.error("Caught Null pointer Exception as name is null for referred category");
-
                 }
             }
         }
         else{
             log.warn(category+ " are not Present in the " +status+" List");
-            //    Assert.assertTrue((body.asString()).contains(category),category+ " are not Present in the " +status+" List");
         }
-        return ListOfpetincategory;
+        return listOfPetInCategory;
     }
     private Properties getProps() throws IOException {
         Properties properties = new Properties();

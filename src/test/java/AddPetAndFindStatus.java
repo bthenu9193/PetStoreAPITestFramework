@@ -1,17 +1,15 @@
 import com.qa.main.petStoreAPIs.petAPI;
 import com.qa.main.pojoClass.Pet;
 import com.qa.main.pojoClass.Status;
-import com.qa.main.props.testContext;
+import com.qa.main.props.TestContext;
 
 import io.restassured.response.Response;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.testng.Reporter;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 /*
  * This class can be used to add new pet and find the status of specific category[ex.Lions] in specific status[ex. available](other values pending,sold)
  * Here category can be retrieved from environment Variables, system properties or from properties file at PetStoreAPITestFramework/src/main/resources/val.properties
@@ -37,7 +35,7 @@ public class AddPetAndFindStatus extends BaseClass {
 
     @BeforeClass
     public void initialize(){
-        this.category= testContext.getCategory();
+        this.category= TestContext.getCategory();
     }
 
     //Build new pet and add it via API (status available)
@@ -57,7 +55,6 @@ public class AddPetAndFindStatus extends BaseClass {
     public void findStatusInAvailable() throws Exception {
         response=pet.findByStatus(Status.available);
         validateResponseCode(response);
-        iteratePetsAndPrintSpecificCategory(response,category);
     }
 
     //Build new pet and add it via API (status pending)
@@ -76,8 +73,6 @@ public class AddPetAndFindStatus extends BaseClass {
     public void findStatusInPending() throws Exception {
         response=pet.findByStatus(Status.pending);
         validateResponseCode(response);
-        iteratePetsAndPrintSpecificCategory(response,category);
-
     }
 
     //Build new pet and add it via API (status sold)
@@ -94,8 +89,6 @@ public class AddPetAndFindStatus extends BaseClass {
     public void findStatusInSold() throws Exception {
         response = pet.findByStatus(Status.sold);
         validateResponseCode(response);
-        iteratePetsAndPrintSpecificCategory(response, category);
-
     }
 
     //Print details of specific Animal
@@ -105,20 +98,16 @@ public class AddPetAndFindStatus extends BaseClass {
     public void findStatusAndDeleteCategory() throws Exception {
         response = pet.findByStatus(Status.sold);
         validateResponseCode(response);
-       List<Pet> petList = GetPetsOfSpecificCategory(response, category, Status.sold);
-        if(!petList.isEmpty())
-            for (Pet petItem : petList) {
-                log.info("Deleting "+petItem.getName()+" with Id "+petItem.getId() +"...");
-                Reporter.log("Deleting "+petItem.getName()+" with Id "+petItem.getId() +"...");
-                response = pet.deletePet(petItem);
-                validateResponseCode(response);
-                pet.verifyPetDeleted(petItem);
+        List<Pet> petList = GetPetsOfSpecificCategory(response, category, Status.sold);
+        for (Pet petItem : petList) {
+            response = pet.deletePet(petItem);
+            validateResponseCode(response);
+            pet.verifyPetDeleted(petItem);
+        }
 
-            }
         //This will verify whether the code for no pets in the specific category is handled or not
         response = pet.findByStatus(Status.sold);
         validateResponseCode(response);
-        iteratePetsAndPrintSpecificCategory(response, category);
     }
 
 }
